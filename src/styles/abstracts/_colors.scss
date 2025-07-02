@@ -1,0 +1,29 @@
+
+.color-swatch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+
+  .swatch {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .light-shades       { background-color: #F5F6F7; color: #333; }
+  .light-accent       { background-color: #DCA8C1; }
+  .main               { background-color: #E5A172; }
+  .dark-accent        { background-color: #C46C8E; }
+  .dark-shades        { background-color: #7E3A50; }
+  .leaf-green         { background-color: #A6C7A1; color: #333; }
+  .stem-green         { background-color: #6E9C74; }
+}
